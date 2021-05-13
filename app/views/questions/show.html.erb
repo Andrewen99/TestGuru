@@ -1,0 +1,2 @@
+<p>Question: <%= @question.body %></p>
+<%= link_to "delete question", question_path(@question), method: :delete, data: { confirm: "You sure?" } %>
